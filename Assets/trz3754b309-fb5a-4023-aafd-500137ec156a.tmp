@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <!--Linking the Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!--Header section-->
+   <header class="header">
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="./Images/logo.svg" alt="Netflix Logo" width="130">
+        </div>
+        <div class="navbar-actions">
+            <button class="btn btn-language">English</button>
+            <button class="btn btn-signin">Sign In</button>
+        </div>
+    </nav>
+    <!--overLay for dark background-->
+    <div class="overlay"></div>
+
+    <!--Hero Banner-->
+    <div class="hero">
+        <h1 class="hero-title">Enjoy big movies, hit series  & more from ₹149.</h1>
+    <h2 class="hero-subtitle">Join Today,Cancel anytime.</h2>
+    <p class="hero-desc">
+        Ready to watch? Enter your Email to Create or Restart your membership.
+    </p>
+    <div class="hero-from">
+        <input type="email" placeholder="Email A"
+    </div>
+    </div>
+   </header>
+</body>
+</html>
